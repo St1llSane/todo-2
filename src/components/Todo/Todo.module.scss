@@ -1,0 +1,37 @@
+.todo {
+  padding: 5.5rem 0;
+  width: 100%;
+  max-width: 736px;
+  margin: 0 auto;
+
+  &Top {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 24px;
+
+    &Left,
+    &Right {
+			font-weight: 700;
+      display: flex;
+      align-items: center;
+      column-gap: 8px;
+
+      span {
+        color: #d9d9d9;
+        font-size: 0.9rem;
+        background-color: #333333;
+        border-radius: 10px;
+        padding: 0.15rem 0.6rem;
+      }
+    }
+
+    &Left {
+      color: #4ea8de;
+    }
+
+    &Right {
+      color: #8284fa;
+    }
+  }
+}

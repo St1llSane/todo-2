@@ -1,0 +1,39 @@
+.header {
+  background-color: #0d0d0d;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 200px;
+  position: relative;
+
+  &Form {
+		position: absolute;
+		bottom: -25px;
+		width: 100%;
+		max-width: 736px;
+		display: flex;
+		justify-content: center;
+		column-gap: 8px;
+
+    input,
+    button {
+      height: 50px;
+      border-radius: 8px;
+      padding: 0 1.1rem;
+    }
+
+    input {
+			width: 100%;
+      max-width: 100%;
+      background-color: #262626;
+    }
+
+    button {
+			font-weight: 700;
+      display: flex;
+      align-items: center;
+      column-gap: 8px;
+      background-color: #1e6f9f;
+    }
+  }
+}
